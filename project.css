@@ -1,0 +1,45 @@
+ /* body{
+  background-image: url("download.jpg");  
+  box-sizing: border-box;
+  width: 100%;  
+  margin: 0;  
+  padding: 0;  
+}
+*/  
+*{
+  box-sizing: border-box;
+}  
+.header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    background-color: brown;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .img {
+  border-radius: 50%;  
+  height: 30pxpx ;  
+  width: 50px;
+}
+  .pic{
+  width: 100%;  
+  
+}
+
+.footer{
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  color: black ;
+  font-family: cursive;
+  font-size: xx-small;
+}
+
+
+@media  screen and (max-width:400px) {
+  .pic{
+    width: 100%;
+  }
+}
